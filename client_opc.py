@@ -117,7 +117,7 @@ def preparRequete(phrase1,phrase2):
     """
 
     requete = ''
-    requeteDebut = 'INSERT INTO rapport_enrouleur_e4('
+    requeteDebut = 'INSERT INTO tablename('
     requeteFin = ') VALUES('
     requete = requeteDebut + phrase2 + requeteFin + phrase1
     requete += ')'
@@ -202,7 +202,7 @@ while Quit != 1 :
                                     i = 3
                                     print "Connexion to BDD impossible at ", temps, "\n"
 
-                                 # Remet à 0 le test_BDD à chaque tour de boucle
+                                
                                 test_BDD = 0
 
                                 # print "Boucle 2 at ", temps
